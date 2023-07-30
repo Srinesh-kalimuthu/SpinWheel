@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section1 {
+    /* border: 5px solid #000; */
+    background-color: #AABDFF;
+}
+
+.titlecard {
+    /* border: 5px solid #6b0553; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.logocard1 {
+    /* border: 5px solid #f10bbb; */
+    border-radius: 10px;
+    background-color: #3F3D56;
+}
+
+.titlecard1 {
+    /* border: 5px solid #099fe4; */
+}
+
+.cs1 {
+    /* border: 5px solid #6b0553; */
+}
+
+.fpi {
+    /* border: 5px solid #099fe4; */
+    border-radius: 10px;
+    max-width: 80px;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.logotitle {
+    /* border: 5px solid #056b35; */
+    padding-left: 12%;
+}
+
+.logoimage {
+    /* border: 5px solid #86d30a; */
+
+}
+
+.welcomeimg {
+    /* border: 5px solid #000; */
+}
+
+.welcomeimage {
+    /* border: 5px solid #86d30a; */
+}
+
+
+.welimg {
+    max-width: 100%;
+    /* border: 5px solid #099fe4; */
+}
+
+.wellimage {
+    /* border: 5px solid #e47309; */
+
+}
+
+.stbut {
+    /* border: 5px solid #0d09e4; */
+    margin-top: 2rem;
+
+}
+
+.btn-warning {
+    border-color: #FCC26F;
+    background-color: #FCC26F;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.btn-warning:hover {
+    border-color: #FCC26F;
+    background-color: #FCC26F;
+}
+
+.note {
+    border-radius: 10px;
+    background-color: #3F3D56;
+    margin-bottom: 3rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    color: #ddeafa;
+}
+
+.n1 {
+    line-height: 2rem;
+    padding-top: 1rem;
+}
+
+.n2 {
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:640px) {
+    .section1 {
+        max-width: 100%;
+        padding-top: 3rem;
+    }
+
+    .titlecard {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .fpi {
+        margin-top: 47%;
+        max-width: 50px;
+    }
+
+    .t1 {
+        font-size: large;
+        padding-top: 5%;
+    }
+
+    .t2 {
+        font-size: small;
+    }
+
+    .t3 {
+        font-size: large;
+    }
+
+    .btn-warning {
+        margin-left: 8rem;
+        border-radius: 5px;
+        padding-top: 10px;
+        margin-bottom: 2rem;
+
+    }
+
+    .b1 {
+        font-size: smaller;
+    }
+
+    .logocard1 {
+        margin-bottom: 3rem;
+    }
+
+    .notecard {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .n1,
+    .n2 {
+        font-size: small;
+    }
+}
