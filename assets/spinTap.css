@@ -12,24 +12,31 @@ html {
 }
 
 .section1 {
-    border: 5px solid #0860f7;
+    /* border: 5px solid #0860f7; */
     max-width: 100%;
+    background-color: #DDEAFA;
+    min-height: 720px;
 }
 
 .spin-row {
-    border: 5px solid #f7df08;
+    /* border: 5px solid #f7df08; */
+}
+
+.st {
+    /* border: 5px solid #f7df08; */
 }
 
 .spinCircle {
-    max-width: 40%;
-    min-height: 600px;
-    border: 2px solid #000;
+    max-width: 35%;
+    min-height: 500px;
+    /* border: 2px solid #000; */
     border-radius: 50%;
     margin-top: 5%;
     margin-bottom: 3.5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #AABDFF;
 }
 
 .content {
@@ -63,4 +70,87 @@ html {
 .btn:hover {
     border-color: #6159E6;
     background-color: #6159E6;
+}
+
+.t2 {
+    margin-left: -3rem;
+}
+
+@media all and (max-width:640px) {
+    .section1 {
+        max-width: 100%;
+        min-height: 720px;
+
+
+    }
+
+    /* 
+    .spin-row {
+        max-width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .spinCircle {
+        max-width: 85%;
+        min-height: 320px;
+        /* border: 2px solid #000; */
+        border-radius: 50%;
+        margin-top: 5%;
+        margin-bottom: 3.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
+    }
+
+    .content {
+        border-radius: 10px;
+        background-color: #3F3D56;
+        max-width: 80%;
+        min-height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        min-height: fit-content;
+        max-width: fit-content;
+        border-radius: 0.5rem;
+        margin-top: 0.3rem;
+    }
+
+    .fpi {
+        max-width: 3.5rem;
+        margin-top: -0.9rem;
+    }
+
+    .t1 {
+        font-size: large;
+        margin-left: 0rem;
+
+    }
+
+    .t2 {
+        font-size: x-small;
+        margin-left: -2rem;
+        margin-top: -1rem;
+    }
+
+    .t3 {
+        font-size: medium;
+
+    }
+
+    .b1 {
+        font-size: smaller;
+
+    }
+
+    .btn {
+        max-width: fit-content;
+    }
+
 }
