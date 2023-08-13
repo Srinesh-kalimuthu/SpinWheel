@@ -59,13 +59,33 @@ html {
     margin-left: 1rem;
 }
 
+.btn {
+    border-color: #3F3D56;
+    background-color: #3F3D56;
+    border-radius: 3px;
+    max-width: 10%;
+    /* margin-bottom: 2rem;
+    min-height: 80px;
+    margin-left: 3rem; */
+
+}
+
+.btn:hover {
+    border-color: #3F3D56;
+    background-color: #3F3D56;
+}
+
 .celeb {
-    /* border: 5px solid #086148; */
-    margin-top: -15rem;
+    /* border: 5px solid #000; */
+    margin-top: -8rem;
+}
+
+.t1 {
+    margin-left: 3.5rem;
 }
 
 .t2 {
-    margin-left: 0rem;
+    margin-left: 4rem;
     margin-top: 0.2rem;
     /* border: 5px solid #086148; */
 }
@@ -98,8 +118,7 @@ html {
         min-height: 320px;
         /* border: 2px solid #000; */
         border-radius: 50%;
-        margin-top: 5%;
-        margin-bottom: 3.5%;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -119,23 +138,24 @@ html {
     .btn {
         min-height: fit-content;
         max-width: fit-content;
-        border-radius: 0.5rem;
-        margin-top: 0.3rem;
+        border-radius: 0.1rem;
+        margin-top: -10%;
     }
+
 
     .fpi {
         max-width: 3.5rem;
-        margin-top: -0.9rem;
+        margin-top: -0.5rem;
     }
 
     .t1 {
         font-size: medium;
-        margin-left: 1rem;
+        margin-left: 3.5rem;
     }
 
     .t2 {
         font-size: x-small;
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
     .t3 {
