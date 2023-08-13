@@ -37,7 +37,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6159E6;
+    background-color: #AABDFF;
 }
 
 .content {
@@ -59,13 +59,12 @@ html {
     margin-left: 1rem;
 }
 
-.celeb {
-    /* border: 5px solid #086148; */
-    margin-top: -15rem;
+.t1 {
+    margin-left: 3.5rem;
 }
 
 .t2 {
-    margin-left: 0rem;
+    margin-left: 4rem;
     margin-top: 0.2rem;
     /* border: 5px solid #086148; */
 }
@@ -123,19 +122,20 @@ html {
         margin-top: 0.3rem;
     }
 
+
     .fpi {
         max-width: 3.5rem;
-        margin-top: -0.9rem;
+        margin-top: -0.5rem;
     }
 
     .t1 {
         font-size: medium;
-        margin-left: 1rem;
+        margin-left: 3.5rem;
     }
 
     .t2 {
         font-size: x-small;
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
 
     .t3 {
