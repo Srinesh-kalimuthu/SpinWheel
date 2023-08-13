@@ -90,6 +90,12 @@ html {
     /* border: 5px solid #086148; */
 }
 
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .sp {
     /* border: 5px solid #0910e4; */
     min-height: 100px;
