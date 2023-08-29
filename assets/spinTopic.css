@@ -21,7 +21,7 @@ html {
     max-width: 100%;
     min-height: 500px;
     border: 5px solid #08f3f7;
-    margin-left: 33%;
+
 
 
 }
@@ -39,10 +39,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 46.5%; */
+    margin-left: 46.5%;
 
-    /* margin-top: 50% !important; */
-    z-index: 1;
+    margin-top: -24% !important;
 
 }
 
@@ -53,30 +52,29 @@ html {
 }
 
 .think {
-    max-width: 35%;
-    min-height: 500px;
     border: 5px solid #0818f7;
-    margin-left: 100rem;
-    margin: auto;
+    /* margin-left: 100rem;
+    margin: auto; */
 }
 
 .lite {
     border: 5px solid #f708b3;
+    max-width: 40% !important;
+    min-height: 400px;
+    /* margin: auto; */
+    padding: 0;
 
 }
 
 #wheel {
     border: 5px solid #3c1803;
 
+
 }
 
 .btn {
-    background-color: none;
-}
-
-.str {
     border-color: #3F3D56;
-    background-color: #3F3D56;
+    background-color: #3F3D56 !important;
     color: #3F3D56;
     border-radius: 3px;
 
@@ -94,4 +92,31 @@ html {
     text-align: center;
     color: #3F3D56;
     font-weight: bolder;
+}
+
+@media all and (max-width: 640px) {
+    .wrap1 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .tlt {
+        display: none;
+    }
+
+    .lite {
+        border: 5px solid #03501a;
+        max-width: 100% !important;
+        min-height: 400px;
+        /* margin: auto; */
+        padding: 0;
+        padding-top: 5rem;
+
+    }
+
+    .fpi {
+        border-radius: 10px;
+        max-width: 50px;
+
+    }
 }
