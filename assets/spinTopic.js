@@ -87,18 +87,15 @@ spinBtn.addEventListener("click", () => {
 
     const spinWheel = () => {
         currentRotation += 15;
-        if (currentRotation >= 360) {
-            currentRotation -= 360;
-        }
+        // if (currentRotation >= 360) {
+        //     currentRotation -= 360;
+        // }
 
         myChart.options.rotation = currentRotation;
         myChart.update();
 
         if (currentRotation >= finalAngle) {
             clearInterval(animationInterval);
-            clearTimeout(spinTimeout);
-
-
             const randomIndex = Math.floor(Math.random() * rotationValues.length);
             const selectedTopic = rotationValues[randomIndex].value;
             setTimeout(() => {
@@ -110,12 +107,6 @@ spinBtn.addEventListener("click", () => {
     };
 
     animationInterval = setInterval(spinWheel, 80);
-
-
-    spinTimeout = setTimeout(() => {
-        clearInterval(animationInterval);
-        spinBtn.disabled = false;
-    }, 6000 + Math.random() * 2000);
 });
 
 
