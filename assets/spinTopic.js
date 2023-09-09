@@ -34,7 +34,7 @@ const pieColors = [
     "#3F3D56",
     "#AABDFF",
 ];
-
+//change
 let myChart = new Chart(wheel, {
     plugins: [ChartDataLabels],
     type: "pie",
