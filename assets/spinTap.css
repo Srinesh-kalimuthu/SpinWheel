@@ -72,6 +72,11 @@ html {
     background-color: #6159E6;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .t2 {
     margin-left: -3rem;
 }
