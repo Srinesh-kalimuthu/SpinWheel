@@ -158,7 +158,15 @@ html {
         border-radius: 5px;
         padding-top: 10px;
         margin-bottom: 2rem;
+        list-style: none;
+        text-decoration: none;
 
+
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
     }
 
     .b1 {
